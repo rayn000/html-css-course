@@ -1,0 +1,62 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    .follow-page {
+        width: 500px;
+    }
+    
+    .follow-person {
+        margin-top: 20px;
+    }
+
+    .profile-picture {
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+            object-fit: cover;
+            margin-top: 5px;
+    }
+
+    .name {
+            font-weight: bold;
+            font-size: 26px;
+            margin-bottom: 5px;
+    }
+
+    .bio {
+            font-size: 26px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 5px;
+    }
+
+    .popularity {
+            font-size: 26px;
+            color: rgb(96, 96, 96);
+    }
+
+    .follow-button {
+            border: none;
+            color: white;
+            background-color: rgb(79, 167, 255);
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 25px;
+    }
+
+    .cat-picture, .profile-info, .profile-button{
+            display: inline-block;
+            vertical-align: top;
+    }
+
+    .cat-picture {
+            margin-right: 10px;
+    }
+
+    .profile-info {
+            padding-right: 150px;
+    }
