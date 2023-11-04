@@ -1,0 +1,10 @@
+.email {
+    font-family: Arial;
+    font-size: 14px;
+}
+.search {
+    font-size: 14px;
+    font-family: Arial;
+    padding: 8px 25px;
+    border-radius: 4px;
+}
