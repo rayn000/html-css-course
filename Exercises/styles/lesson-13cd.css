@@ -1,0 +1,65 @@
+* {
+    font-family: Arial;
+}
+
+.gmail-ios {
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(201, 201, 201);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
+}
+
+.all-inboxes {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.recieved-mail {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.sender-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.mail-header {
+    flex: 1;
+}
+
+.mail-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.mail-subject {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mail-recieved-time {
+    color: gray;
+    font-size: 14px;
+}
+
+.description {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.context {
+    color: gray;
+}
